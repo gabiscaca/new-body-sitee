@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #efb19b;
+    padding: 20px;
+    text-align: center;
+    color: rgb(247, 240, 240);
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .produtos, .pacotes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .produto, .pacote {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    background: white;
+  }
+  
+  .pacote form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .pacote input[type="text"],
+  .pacote input[type="tel"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #f8bbd0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+    margin: auto;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  button {
+    background-color: #ec407a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d81b60;
+  }
+  
